@@ -8,7 +8,13 @@ namespace Polymorphism
 {
     internal class FigureSquare:Figure
     {
-        private protected double sideA;
+        private double sideA;
+
+        public double SideA
+        {
+            get { return sideA; }
+        }
+
 
 
 

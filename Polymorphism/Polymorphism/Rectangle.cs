@@ -18,8 +18,9 @@ namespace Polymorphism
         public override void Square()
         {
             double s;
-            s = sideA * sideB;
-            Console.WriteLine($"Площадь прямоугольника со сторонами {sideA}, {sideB} равна {Math.Round(s, 2)}");
+
+            s = base.SideA * sideB;
+            Console.WriteLine($"Площадь прямоугольника со сторонами {base.SideA}, {sideB} равна {Math.Round(s, 2)}");
 
         }
     }
