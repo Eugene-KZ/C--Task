@@ -19,8 +19,8 @@ namespace Polymorphism
         {
             double s;
 
-            s = base.SideA * sideB;
-            Console.WriteLine($"Площадь прямоугольника со сторонами {base.SideA}, {sideB} равна {Math.Round(s, 2)}");
+            s = SideA * sideB;
+            Console.WriteLine($"Площадь прямоугольника со сторонами {SideA}, {sideB} равна {Math.Round(s, 2)}");
 
         }
     }
